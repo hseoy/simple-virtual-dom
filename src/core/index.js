@@ -30,7 +30,7 @@ export const updateElement = ($parent, newNode, oldNode, index = 0) => {
 
     for (let i = 0; i < newLength || i < oldLength; i += 1) {
       updateElement(
-        $parent.childNOdes[index],
+        $parent.childNodes[index],
         newNode.children[i],
         oldNode.children[i],
         i,
